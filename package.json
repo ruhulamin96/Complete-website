@@ -11,10 +11,14 @@
     "url": "git+https://github.com/ruhulamin96/Complete-website.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "ruhul amin",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ruhulamin96/Complete-website/issues"
   },
-  "homepage": "https://github.com/ruhulamin96/Complete-website#readme"
+  "homepage": "https://github.com/ruhulamin96/Complete-website#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.13.6"
+  }
 }
