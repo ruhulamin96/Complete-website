@@ -23,16 +23,16 @@ app.use(
   "/jq",
   express.static(path.join(__dirname, "../node_modules/jquery/dist"))
 );
-app.set('views', path.join(__dirname, 'views'));
+app.set("views", path.join(__dirname, "views"));
 app.use(express.static(staticpath));
-app.set("view engine","hbs")
+app.set("view engine", "hbs");
 //------------------------------------------------------
 //routing
 app.get("/", (req, res) => {
-  res.render("index")
+  res.render("index");
 });
 app.get("/contact", (req, res) => {
-  res.render("contact")
+  res.render("contact");
 });
 
 //create server
